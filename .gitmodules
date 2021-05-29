@@ -1,0 +1,3 @@
+[submodule "3d-pose-baseline/3d-pose-baseline"]
+	path = 3d-pose-baseline/3d-pose-baseline
+	url = https://github.com/una-dinosauria/3d-pose-baseline.git
