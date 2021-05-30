@@ -23,7 +23,7 @@ https://docs.google.com/presentation/d/1yrY2oVPTiEstRpIIyMXnouS-HPtyUC6mBmn5M1dY
 ## Explanation video is available here - 
 To be added
 
-##Realtime TryOn apk (prototype) is available here - 
+## Realtime TryOn apk (prototype) is available here - 
 https://drive.google.com/file/d/10jMRRBXvuxti4zMq110eqFpUHtfPZc10/view?usp=sharing
 
 ## Requirements
