@@ -27,7 +27,7 @@ So here we are with a
 https://docs.google.com/presentation/d/1yrY2oVPTiEstRpIIyMXnouS-HPtyUC6mBmn5M1dY2jg/edit?usp=sharing
 
 ## Explanation video is available here - 
-To be added
+https://drive.google.com/file/d/1GGI8ZgOwnpCDTfY6i4KYlWCSFJvqiAW8/view?usp=sharing
 
 ## Realtime TryOn apk (prototype) is available here - 
 https://drive.google.com/file/d/10jMRRBXvuxti4zMq110eqFpUHtfPZc10/view?usp=sharing
