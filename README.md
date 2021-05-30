@@ -17,6 +17,12 @@ So here we are with a
 
 -People can see a 360-degree view of themselves and the product on the platform and hence get a personalised feel on how the product is for them and further spark interest in relatability.
 
+**In conclusion we have offered two awesome solutions for the same problem but with different scenarios -**
+
+1) **Realtime TryOn_Lite** : This feature will help you view yourself wearing the clothes you selected in realtime. You just need to have an Amazon TryOn photo, which can be downloaded from our repository. When you run this app on your mobile, you will have to keep the phone on vertically and the stand right infront of it along with the TryOn photo, you'll be able to see that the clothes will follow the image position it such that the clothes are superimposed on you and hence get a realtime virtual trial room experience.
+
+2) **Virtual Trial Room**: A feature to upload your video with a 360 degree view in our app and then select the clothes that you like in a kart. When you click proceed the app will return to you a superimposed model of you and the clothes as if you were wearing them while recording the video. This will give you a great insight on how the product will look once it is delivered and hence help you ake the right choice and not go through the process of returning again and again
+
 ## Presentation is available here - 
 https://docs.google.com/presentation/d/1yrY2oVPTiEstRpIIyMXnouS-HPtyUC6mBmn5M1dY2jg/edit?usp=sharing
 
@@ -34,6 +40,7 @@ https://drive.google.com/file/d/10jMRRBXvuxti4zMq110eqFpUHtfPZc10/view?usp=shari
 * [Unity](http://unity3d.com/) 5.3 or higher.
 * [Android SDK](https://developer.android.com/studio/index.html#downloads)
   (when developing for Android).
+* Vuforia
 
 ## Unity Setup - 
 - add the unity project from `/Unity/Trial_room`
@@ -50,9 +57,11 @@ $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 -Go to the directory `/backend/server/` and run `python database_server.py`
 -Once the server is setup, enter the ip address in credential.cs and upload_video.cs present in `/Unity/Trial_room/Assets/Scripts/`
 
-## DataSet 
-* **We are using Human3.6m dataset which is to be downloaded from** http://vision.imar.ro/human3.6m/
+## DataSet and current challenges
+**We are using Human3.6m dataset which can be downloaded from** http://vision.imar.ro/human3.6m/
+
 * View the following repo readme to see the steps to process the dataset- https://github.com/anibali/h36m-fetch
+* We have requested the dataset but it will arrive within a weeks span. we have our code structure ready and our prototype for Virtual Trial Room will also be completed as soon as we recieve the data
 
 ## References - 
   
